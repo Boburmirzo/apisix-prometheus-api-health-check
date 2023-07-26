@@ -14,7 +14,7 @@ This repo demonstrates how to **enable and monitor API health checks** using API
 
 ## Start the APISIX demo project
 
-This project leverages existing the pre-defined [Docker Compose configuration](https://github.com/Boburmirzo/apisix-prometheus-api-health-check/blob/main/docker-compose.yml) file to set up, deploy and run APISIX, etcd, Prometheus, and other services with a single command. First, clone the [apisix-prometheus-api-health-check]https://github.com/Boburmirzo/apisix-prometheus-api-health-check) repo on GitHub and open it in your favorite editor, and start the project by simply running `docker compose up` from the project root folder.
+This project leverages existing the pre-defined [Docker Compose configuration](https://github.com/Boburmirzo/apisix-prometheus-api-health-check/blob/main/docker-compose.yml) file to set up, deploy and run APISIX, etcd, Prometheus, and other services with a single command. First, clone the [apisix-prometheus-api-health-check](https://github.com/Boburmirzo/apisix-prometheus-api-health-check) repo on GitHub and open it in your favorite editor, and start the project by simply running `docker compose up` from the project root folder.
 
 When you start the project, Docker downloads any images it needs to run. You can see the full list of services in [docker-compose.yaml](https://github.com/Boburmirzo/apisix-prometheus-api-health-check/blob/main/docker-compose.yml) file.
 
